@@ -1,3 +1,29 @@
+# Overview
+This project is a React and Node.js application for user registration and database management. The React app provides a user interface for users to register and log in. The Node.js API provides endpoints for handling user registration and database access.
+# Features
+* User registration and login
+* Database management
+# Purpose
+* To register for an account, click on the "Register" button and fill out the registration form. The registration form requires the following information:
+    
+- Name
+- Date of Birth
+- Email
+- Password
+
+* Once you have submitted the form, the React app will send a POST request to the Node.js API server with the registration data. The Node.js API server will then create a new user document in the database. If the registration is successful, you will be redirected to the database page, where you can see the user data that you just submitted.
+
+* The database page displays a table with the user data. The user data includes the following information:
+- Name
+- Date of Birth
+- Email
+- Password
+
+# Node API
+-------
+- /api/register: This endpoint handles user registration requests.
+- /api/login: This endpoint handles user login requests.
+- /api/database: This endpoint returns the user data from the database.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
