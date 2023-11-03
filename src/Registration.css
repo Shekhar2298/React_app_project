@@ -1,0 +1,41 @@
+/* RegistrationForm.css */
+
+/* Style the form container with a light purple background */
+.form-container {
+    background-color: #6f2ab8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex; /* Use flex layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+  }
+  
+  /* Style the input fields */
+  .form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    
+  }
+  
+  /* Style the Register button */
+  .btn-register {
+    background-color: #44c83f; /* Light purple background color */
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .label-text {
+    color: #ffffff; /* White color for labels */
+    margin-right: 10px; /* Add some spacing between labels and input fields */
+  }
+  

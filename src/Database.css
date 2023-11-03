@@ -1,0 +1,44 @@
+/* DatabaseTable.css */
+
+/* Style the table container */
+.table-container {
+    margin: 20px;
+  }
+  
+  /* Style the table */
+  .database-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style table headers */
+  .database-table th {
+    background-color: #6a5acd; /* Light purple background for headers */
+    color: #fff; /* White text color for headers */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style table rows */
+  .database-table tr:nth-child(even) {
+    background-color: #f2e6ff; /* Light purple background for even rows */
+  }
+  
+  .database-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc; /* Add a border for each cell */
+  }
+  
+  .database-table th,
+  .database-table td {
+    /* Add space between columns */
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  /* Add space between rows */
+  .database-table tr {
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,76 @@
+.login-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: purple;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center the content horizontally */
+   
+  }
+ 
+
+  .form-input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    width: 100%; /* Set the width to 50% */
+  display: block; /* Center the button horizontally */
+  margin: 0 auto; /* Center the button horizontally */
+  background-color: violet; /* Button color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  .avatar-container {
+    text-align: center;
+  }
+  
+  .avatar {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+    background-color: violet;
+  }
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .signin-button {
+    width: 50%;
+    background-color: violet;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Adjust the margin as needed to separate the button and form */
+  }
+  
+  /* Your existing CSS code here */
+
+.input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-icon {
+    font-size: 20px; /* Adjust the size as needed */
+    margin-right: 10px; /* Adjust the spacing between icon and input */
+    color: black;
+  }
+  
